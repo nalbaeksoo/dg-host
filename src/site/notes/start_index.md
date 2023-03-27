@@ -4,7 +4,7 @@
 
 
 ## Obsidian Digital Garden
-The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digital-garden) is a free and open source publishing tool for [Obsidian](https://obsidian.md/).
+The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digital-garden) and [Docs](https://dg-docs.ole.dev/)  is a free and open source publishing tool for [Obsidian](https://obsidian.md/).
 
 
 
