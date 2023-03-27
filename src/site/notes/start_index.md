@@ -1,9 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/start_index/","tags":["gardenEntry"]}
+{"dg-home":true,"dg-publish":true,"permalink":"/start_index/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
-
-[[알코올\|알코올]]
 
 
 ## 23년 3월
