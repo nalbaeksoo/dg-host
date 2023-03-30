@@ -12,7 +12,8 @@ Link
 - [고착에서 빠져나와 창의적 통찰을 얻는 법](https://twinstae.github.io/fixation-to-insight/)
 - [일일회고 가이드](https://twinstae.github.io/daily-review-guide/)
 - [WOOP 체크리스트](https://dawn-bulb-f4b.notion.site/WOOP-3dee3143b2554dbda0aea18a4d1b2b26)
-- 
+
+
 
 ## 23년 3월
 [[일지/2023-03-30\|2023-03-30]]
