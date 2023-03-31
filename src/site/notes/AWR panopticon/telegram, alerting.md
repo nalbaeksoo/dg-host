@@ -52,7 +52,6 @@ while True:
     
     # 1분마다 페이지 내용 확인
     time.sleep(60)
-
 ```
 
 위 코드에서 `your_bot_token_here`와 `your_chat_id_here`에는 본인이 생성한 Telegram 봇의 토큰과 알림을 받을 채팅방의 ID를 입력해주어야 합니다. `your_url_here`에는 확인하고자 하는 웹페이지의 URL을 입력해주시면 됩니다. `your_element_here`에는 페이지에서 확인하고자 하는 요소의 HTML 태그와 클래스 또는 ID 등을 입력해주시면 됩니다. 코드를 실행하면 1분마다 페이지 내용을 확인하고, 내용이 변경되면 Telegram으로 알림을 보내고 변경된 내용을 출력합니다.
