@@ -71,7 +71,13 @@ DLL 파일을 만드는 가장 일반적인 방법 중 하나는 C++과 같은 �
 arduinoCopy code
 
 ```
-// DLLExample.cpp  #include "pch.h" #include "framework.h"  extern "C" __declspec(dllexport) int Add(int a, int b) {     return a + b; }
+// DLLExample.cpp  
+#include "pch.h" 
+#include "framework.h"  
+extern "C" __declspec(dllexport) 
+int Add(int a, int b) {     
+return a + b; 
+}
 ```
 
 2.  .NET Framework를 사용하여 DLL 파일 생성하기
@@ -88,7 +94,14 @@ arduinoCopy code
 arduinoCopy code
 
 ```
-// DLLExample.cs  using System;  namespace DLLExample {     public class Calculator     {         public static int Add(int a, int b)         {             return a + b;         }     } }
+// DLLExample.cs  
+using System;  
+namespace DLLExample {     
+public class Calculator     {         
+public static int Add(int a, int b)         {             
+return a + b;         }     
+} 
+}
 ```
 
 DLL 파일을 생성하는 방법은 언어나 플랫폼에 따라 다르지만, 기본적으로 코드를 작성하고 컴파일하여 DLL 파일을 생성하는 방법입니다. 만든 DLL 파일을 다른 프로그램에서 사용하려면, 해당 언어나 플랫폼에서 DLL 파일을 로드하고 함수를 호출하는 코드를 작성해야합니다.
