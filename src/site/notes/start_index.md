@@ -2,9 +2,10 @@
 {"dg-home":true,"dg-publish":true,"permalink":"/start_index/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
-### Aphorism 
-*한가지 변함없는 법칙이 있다. 
-우리가 깊은 상처를 입었을 때 용서하지 않는 한은 어떤 치유도 없다는 것이다. (알란 패턴)*
+
+<p align="right">*한가지 변함없는 법칙이 있다. <br>
+우리가 깊은 상처를 입었을 때 용서하지 않는 한은 어떤 치유도 없다는 것이다. <br>
+(알란 패턴)*</p>
 
 ## Obsidian Digital Garden
 The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digital-garden) and [Docs](https://dg-docs.ole.dev/)  is a free and open source publishing tool for [Obsidian](https://obsidian.md/).
@@ -20,6 +21,7 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 #### 최근일지
 | File                               | file.ctime                | file.tag | file.inlink | file.outlink |
 | ---------------------------------- | ------------------------- | -------- | ----------- | ------------ |
+| [[9.일지/2023-04-15\|2023-04-15]] | 11:02 AM - April 15, 2023 | \-       | \-          | \-           |
 | [[9.일지/2023-04-13\|2023-04-13]] | 3:36 PM - April 13, 2023  | \-       | \-          | \-           |
 | [[9.일지/2023-04-12\|2023-04-12]] | 12:10 PM - April 12, 2023 | \-       | \-          | \-           |
 | [[9.일지/2023-04-11\|2023-04-11]] | 11:10 AM - April 11, 2023 | \-       | \-          | \-           |
