@@ -8,7 +8,7 @@
 (알란 패턴)*</p>
 
 ## Obsidian Digital Garden
-The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digital-garden) and [Docs](https://dg-docs.ole.dev/)  is a free and open source publishing tool for [Obsidian](https://obsidian.md/).
+The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digital-garden) and [Docs](https://dg-docs.ole.dev/)  is a free and open source publishing tool for [Obsidian](https://obsidian.md/) & [제델카스텐](http://www.yes24.com/Product/Goods/99475214) 
 
 누군가를 사랑하다가 버림 받고 죽고 싶은 생각이 드는건 아무나 하는게 아니라고,  그렇게 할수 있는 사람은 많이 없을꺼라고. 그러니까 자기자신을 더 사랑하고 좋은사람이라는걸 믿으라던ㅡ 내 첫번째 상담선생님.
 
@@ -21,6 +21,8 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 #### 최근일지
 | File                               | file.ctime                | file.tag | file.inlink | file.outlink |
 | ---------------------------------- | ------------------------- | -------- | ----------- | ------------ |
+| [[9.일지/2023-04-19\|2023-04-19]] | 8:41 AM - April 19, 2023  | \-       | \-          | \-           |
+| [[9.일지/2023-04-18\|2023-04-18]] | 2:48 PM - April 18, 2023  | \-       | \-          | \-           |
 | [[9.일지/2023-04-15\|2023-04-15]] | 11:02 AM - April 15, 2023 | \-       | \-          | \-           |
 | [[9.일지/2023-04-13\|2023-04-13]] | 3:36 PM - April 13, 2023  | \-       | \-          | \-           |
 | [[9.일지/2023-04-12\|2023-04-12]] | 12:10 PM - April 12, 2023 | \-       | \-          | \-           |
