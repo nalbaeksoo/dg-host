@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/6.AWR panopticon/pivot vba/","dgPassFrontmatter":true}
 ---
 
+
 ```
 Sub CreatePivotTable()
     Dim wsData As Worksheet
