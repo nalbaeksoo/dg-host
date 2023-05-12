@@ -51,3 +51,52 @@ End Sub
 | 20 | PATHEXT                         | 42 | USERPROFILE               |
 | 21 | platformcode                    | 43 | windir                    |
 | 22 | PROCESSOR_ARCHITECTURE          |
+
+- cpu info & mac address 출력
+```
+ Option Explicit
+
+Sub 매크로1()
+
+    Dim objWMIService As Object
+    Dim colItems As Object
+    Dim objItem As Object
+    Dim strComputer As String
+    Dim row As Integer
+    Dim i As Integer
+    i = 1
+    
+    Range("A1").Value = "ProcessorIdentifier" 
+    Range("B1").Value = Replace(Environ("PROCESSOR_IDENTIFIER"), " ", "_")
+    Range("A2").Value = "Hostname"
+    Range("B2").Value = Environ("COMPUTERNAME")
+    Range("A3").Value = "UserName"
+    Range("B3").Value = Environ("UserName")
+
+    strComputer = "." ' 현재 컴퓨터를 사용하려면 "."을 사용
+    row = 4 ' 출력을 시작할 행 번호
+    
+    Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\CIMV2")
+    Set colItems = objWMIService.ExecQuery("SELECT MACAddress FROM Win32_NetworkAdapterConfiguration WHERE MACAddress IS NOT NULL")
+    
+    For Each objItem In colItems
+        Dim macAddresses As Variant
+        macAddresses = objItem.MACAddress
+        
+        If IsArray(macAddresses) Then
+            For i = LBound(macAddresses) To UBound(macAddresses)
+                Range("A" & row).Value = "MAC Address:" & row - 3
+                Range("B" & row).Value = macAddresses(i)
+                row = row + 1
+            Next i
+        Else
+            Range("A" & row).Value = "MAC Address:" & row - 3
+            Range("B" & row).Value = macAddresses
+            row = row + 1
+        End If
+    Next
+         
+End Sub
+
+
+```
