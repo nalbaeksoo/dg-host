@@ -10,26 +10,14 @@ Sub MeasureStepTime()
     Dim startTime As Double
     Dim endTime As Double
     Dim stepTime As Double
+    Dim step As Integer
     
-    ' 첫 번째 단계
-    startTime = Timer
-    ' 첫 번째 단계의 코드
-    endTime = Timer
-    stepTime = endTime - startTime
-    MsgBox "첫 번째 단계 수행 시간: " & stepTime & "초"
-    
-    ' 두 번째 단계
-    startTime = Timer
-    ' 두 번째 단계의 코드
-    endTime = Timer
-    stepTime = endTime - startTime
-    MsgBox "두 번째 단계 수행 시간: " & stepTime & "초"
-    
-    ' 세 번째 단계
-    startTime = Timer
-    ' 세 번째 단계의 코드
-    endTime = Timer
-    stepTime = endTime - startTime
-    MsgBox "세 번째 단계 수행 시간: " & stepTime & "초"
+    For step = 1 To 3
+        startTime = Timer
+        ' 각 단계의 코드
+        endTime = Timer
+        stepTime = endTime - startTime
+        MsgBox "단계 " & step & " 수행 시간: " & stepTime & "초"
+    Next step
 End Sub
 ```
