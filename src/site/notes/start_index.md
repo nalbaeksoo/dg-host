@@ -19,9 +19,11 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 
 
 #### 최근일지
-| File | file.ctime | file.tag | file.inlink | file.outlink |
-| ---- | ---------- | -------- | ----------- | ------------ |
+| File                               | file.ctime                 | file.tag | file.inlink | file.outlink |
+| ---------------------------------- | -------------------------- | -------- | ----------- | ------------ |
+| [[9.일지/2023-10-19\|2023-10-19]] | 9:52 AM - October 19, 2023 | \-       | \-          | \-           |
 
+{ .block-language-dataview}
 
 ---
 
