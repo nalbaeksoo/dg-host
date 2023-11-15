@@ -11,6 +11,10 @@ https://tanelpoder.com
 Lazy DBA
 https://tanwanichandan.blogspot.com/
 
+Brendan's site
+https://www.brendangregg.com/bpf-performance-tools-book.html
+
+
 
 
 
