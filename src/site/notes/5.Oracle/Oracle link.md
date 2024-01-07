@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5.Oracle/Oracle link/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/5.Oracle/Oracle link/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 jonathanlewis
