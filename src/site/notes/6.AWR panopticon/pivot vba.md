@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/pivot vba/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/pivot vba/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
