@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5.Oracle/improvements ONLINE SYNTAX in Oracle 19C/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/5.Oracle/improvements ONLINE SYNTAX in Oracle 19C/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
