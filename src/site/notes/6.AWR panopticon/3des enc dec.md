@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/3des enc dec/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/3des enc dec/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
