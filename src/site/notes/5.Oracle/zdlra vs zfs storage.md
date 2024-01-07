@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5.Oracle/zdlra vs zfs storage/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/5.Oracle/zdlra vs zfs storage/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
