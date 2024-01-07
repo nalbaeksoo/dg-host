@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/timer 사용법/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/timer 사용법/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
