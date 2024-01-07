@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/telegram, alerting/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/telegram, alerting/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
