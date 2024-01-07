@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/기준컬럼으로 여러개의 chart 생성/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/기준컬럼으로 여러개의 chart 생성/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
