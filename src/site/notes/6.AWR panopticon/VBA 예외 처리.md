@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/VBA 예외 처리/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/VBA 예외 처리/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
