@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/vba 코드 난독화/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/vba 코드 난독화/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
