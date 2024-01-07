@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5.Oracle/null column은 data size 측정이 어떻게 되는가.../","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/5.Oracle/null column은 data size 측정이 어떻게 되는가.../","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
