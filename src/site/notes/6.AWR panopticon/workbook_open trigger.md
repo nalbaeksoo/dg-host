@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/6.AWR panopticon/workbook_open trigger/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/6.AWR panopticon/workbook_open trigger/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
