@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/5.Oracle/RMAN Advisor/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/5.Oracle/RMAN Advisor/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
