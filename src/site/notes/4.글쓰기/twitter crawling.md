@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/4.글쓰기/twitter crawling/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/4.글쓰기/twitter crawling/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
