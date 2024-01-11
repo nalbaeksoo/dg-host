@@ -75,6 +75,7 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 | [[9.일지/2023/2023-10-19\|2023-10-19]] | 12:49 AM - January 10, 2024 | \-       | \-          | \-           |
 | [[9.일지/2023/2023-10-23\|2023-10-23]] | 12:49 AM - January 10, 2024 | \-       | \-          | \-           |
 | [[9.일지/2023/2023-10-25\|2023-10-25]] | 12:49 AM - January 10, 2024 | \-       | \-          | \-           |
+| [[9.일지/2024-01-11\|2024-01-11]]      | 1:23 AM - January 12, 2024  | \-       | \-          | \-           |
 
 { .block-language-dataview}
 
