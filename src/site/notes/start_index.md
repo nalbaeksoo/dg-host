@@ -17,6 +17,9 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 - [일일회고 가이드](https://twinstae.github.io/daily-review-guide/)
 - [WOOP 체크리스트](https://dawn-bulb-f4b.notion.site/WOOP-3dee3143b2554dbda0aea18a4d1b2b26)
 
+### 이외 내용은 아래의 cc를 따름.
+![](https://i.imgur.com/M1TGa1g.png)
+https://ccl.cckorea.org/about/
 
 #### 최근일지
 | File                                    | file.ctime                  | file.tag | file.inlink | file.outlink |
