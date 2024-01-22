@@ -2,7 +2,6 @@
 {"dg-home":true,"dg-publish":true,"permalink":"/start_index/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-
 <p align="right">*한가지 변함없는 법칙이 있다. <br>
 우리가 깊은 상처를 입었을 때 용서하지 않는 한은 어떤 치유도 없다는 것이다. <br>
 (알란 패턴)*</p>
@@ -21,9 +20,11 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 ![](https://i.imgur.com/M1TGa1g.png)
 https://ccl.cckorea.org/about/
 
+---
 #### 최근일지
 | File                               | file.ctime                  |
 | ---------------------------------- | --------------------------- |
+| [[9.일지/2024-01-22\|2024-01-22]] | 12:44 PM - January 22, 2024 |
 | [[9.일지/2024-01-21\|2024-01-21]] | 12:44 PM - January 22, 2024 |
 | [[9.일지/2024-01-20\|2024-01-20]] | 11:19 AM - January 20, 2024 |
 | [[9.일지/2024-01-19\|2024-01-19]] | 1:59 PM - January 19, 2024  |
@@ -33,5 +34,3 @@ https://ccl.cckorea.org/about/
 | [[9.일지/2024-01-15\|2024-01-15]] | 12:28 PM - January 15, 2024 |
 
 { .block-language-dataview}
-
----
