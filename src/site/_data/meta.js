@@ -4,7 +4,7 @@ const fs = require("fs");
 const crypto = require("crypto");
 const { globSync } = require("glob");
 
-module.exports = async () => {
+module.exports = async (data) => {
   let baseUrl = process.env.SITE_BASE_URL || "";
   if (baseUrl && !baseUrl.startsWith("http")) {
     baseUrl = "https://" + baseUrl;
@@ -48,7 +48,7 @@ module.exports = async () => {
     bodyClasses.push("backlinks-note-icon");
     noteIconsSettings.backlinks = true;
   }
-  if(styleSettingsCss){
+  if (styleSettingsCss) {
     bodyClasses.push("css-settings-manager");
   }
 
@@ -66,8 +66,10 @@ module.exports = async () => {
     timestampSettings,
     baseTheme: process.env.BASE_THEME || "dark",
     siteName: process.env.SITE_NAME_HEADER || "Digital Garden",
+    mainLanguage: process.env.SITE_MAIN_LANGUAGE || "en",
     siteBaseUrl: baseUrl,
-    styleSettingsCss
+    styleSettingsCss,
+    buildDate: new Date(),
   };
 
   return meta;
