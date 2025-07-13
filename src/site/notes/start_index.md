@@ -16,6 +16,9 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 - [일일회고 가이드](https://twinstae.github.io/daily-review-guide/)
 - [WOOP 체크리스트](https://dawn-bulb-f4b.notion.site/WOOP-3dee3143b2554dbda0aea18a4d1b2b26)
 
+### Oracle tech 
+본 블로그에 게시된 내용은 개인적인 의견이며, 오라클의 공식 입장을 대변하지 않습니다.
+
 ### 이외 기술 관련 내용은 아래의 cc를 따름.
 ![](https://i.imgur.com/M1TGa1g.png)
 https://ccl.cckorea.org/about/
