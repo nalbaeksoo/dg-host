@@ -25,9 +25,49 @@ Note that these are just a few of the many enhancements and new features in Orac
 
 Here is an example SQL query that would work in both older versions and Oracle 19c:
 
-sqlCopy code
+```
+ -- Create a sample table 
+       CREATE TABLE employees ( employee_id NUMBER PRIMARY KEY, first_name VARCHAR2(50), last_name VARCHAR2(50), hire_date DATE, salary NUMBER );
+ 
+--Insert data into the table 
+INSERT
+  INTO employees
+VALUES (1,
+               'John',
+               'Doe',
+               TO_DATE('2020-01-01', 'YYYY-MM-DD'),
+               50000);
+ 
+INSERT
+  INTO employees
+VALUES (2,
+               'Jane',
+               'Smith',
+               TO_DATE('2020-05-15', 'YYYY-MM-DD'),
+               55000);
+ 
+INSERT
+  INTO employees
+VALUES (3,
+               'Mike',
+               'Johnson',
+               TO_DATE('2020-08-01', 'YYYY-MM-DD'),
+               52000);
+ 
+-- Commit the data 
+COMMIT;  
 
-`-- Create a sample table CREATE TABLE employees (   employee_id NUMBER PRIMARY KEY,   first_name VARCHAR2(50),   last_name VARCHAR2(50),   hire_date DATE,   salary NUMBER );  -- Insert data into the table INSERT INTO employees VALUES (1, 'John', 'Doe', TO_DATE('2020-01-01', 'YYYY-MM-DD'), 50000); INSERT INTO employees VALUES (2, 'Jane', 'Smith', TO_DATE('2020-05-15', 'YYYY-MM-DD'), 55000); INSERT INTO employees VALUES (3, 'Mike', 'Johnson', TO_DATE('2020-08-01', 'YYYY-MM-DD'), 52000);  -- Commit the data COMMIT;  -- Query the data SELECT employee_id, first_name, last_name, hire_date, salary FROM employees WHERE salary > 50000 ORDER BY hire_date ASC;`
+-- Query the data 
+SELECT employee_id,
+       first_name,
+       last_name,
+       hire_date,
+       salary
+  FROM employees
+ WHERE salary > 50000
+ ORDER BY hire_date ASC; 
+ 
+```
 
 This SQL script creates a table, inserts data, and then queries the data. It uses standard SQL syntax and would work in both older versions and Oracle 19c.
 
@@ -41,7 +81,25 @@ In Oracle, you can merge partitions online without affecting the availability of
 
 sqlCopy code
 
-`-- Create a partitioned table CREATE TABLE sales (   sales_id NUMBER,   sales_date DATE,   amount NUMBER ) PARTITION BY RANGE (sales_date)   (PARTITION sales_q1 VALUES LESS THAN (TO_DATE('2023-04-01', 'YYYY-MM-DD')),    PARTITION sales_q2 VALUES LESS THAN (TO_DATE('2023-07-01', 'YYYY-MM-DD')),    PARTITION sales_q3 VALUES LESS THAN (TO_DATE('2023-10-01', 'YYYY-MM-DD')),    PARTITION sales_q4 VALUES LESS THAN (TO_DATE('2024-01-01', 'YYYY-MM-DD')));  -- Merge partitions sales_q1 and sales_q2 online ALTER TABLE sales MERGE PARTITIONS sales_q1, sales_q2   INTO PARTITION sales_h1 ONLINE;`
+```
+ -- Create a partitioned table 
+       CREATE TABLE sales ( sales_id NUMBER, sales_date DATE, amount NUMBER ) 
+       PARTITION BY RANGE (sales_date) (PARTITION sales_q1
+        VALUES LESS THAN (TO_DATE('2023-04-01', 'YYYY-MM-DD')),
+               PARTITION sales_q2
+        VALUES LESS THAN (TO_DATE('2023-07-01', 'YYYY-MM-DD')),
+               PARTITION sales_q3
+        VALUES LESS THAN (TO_DATE('2023-10-01', 'YYYY-MM-DD')),
+               PARTITION sales_q4
+        VALUES LESS THAN (TO_DATE('2024-01-01', 'YYYY-MM-DD')));
+ 
+-- Merge partitions sales_q1 and sales_q2 online 
+       ALTER TABLE sales
+MERGE PARTITIONS sales_q1,
+       sales_q2
+  INTO PARTITION sales_h1 ONLINE;
+ 
+```
 
 In this example, we create a partitioned table and then merge two partitions, `sales_q1` and `sales_q2`, into a new partition called `sales_h1`. The `ONLINE` keyword ensures that this operation is performed online, so the table remains available for DML operations.
 
@@ -89,7 +147,11 @@ We insert some data into the `orders` table and commit the transaction.
 
 sqlCopy code
 
-`-- Split partition orders_q2 online ALTER TABLE orders SPLIT PARTITION orders_q2   AT (TO_DATE('2023-06-01', 'YYYY-MM-DD'))   INTO (PARTITION orders_q2a, PARTITION orders_q2b) ONLINE;`
+`-- Split partition orders_q2 online 
+```
+ALTER TABLE orders SPLIT PARTITION orders_q2   AT (TO_DATE('2023-06-01', 'YYYY-MM-DD'))   INTO (PARTITION orders_q2a, PARTITION orders_q2b) ONLINE;
+```
+`
 
 In this example, we split the partition `orders_q2` into two partitions, `orders_q2a` and `orders_q2b`, at a specific date using the `SPLIT PARTITION` command with the `ONLINE` keyword. This ensures that the table remains available for DML operations during the partition splitting process.
 
@@ -133,7 +195,17 @@ Oracle allows you to refresh materialized views online, enabling you to update t
 
 sqlCopy code
 
-`-- Create a materialized view CREATE MATERIALIZED VIEW order_summary   BUILD IMMEDIATE   REFRESH FAST ON DEMAND   AS SELECT customer_id, COUNT(order_id) AS num_orders, SUM(amount) AS total_amount      FROM orders      GROUP BY customer_id;  -- Refresh the materialized view online DBMS_MVIEW.REFRESH('ORDER_SUMMARY', 'C', atomic_refresh => FALSE);`
+`-- Create a materialized view 
+```
+CREATE MATERIALIZED VIEW order_summary BUILD IMMEDIATE REFRESH FAST ON DEMAND AS
+SELECT customer_id,
+       COUNT(order_id) AS num_orders,
+       SUM(amount) AS total_amount
+  FROM orders
+ GROUP BY customer_id;
+ 
+Refresh the materialized view online DBMS_MVIEW.REFRESH('ORDER_SUMMARY', 'C', atomic_refresh => FALSE);
+```
 
 In this example, we create a materialized view called `order_summary` and refresh it online using the DBMS_MVIEW.REFRESH procedure with the `atomic_refresh` parameter set to `FALSE`.
 
