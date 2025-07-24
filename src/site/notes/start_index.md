@@ -21,7 +21,7 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 
 ### 이외 기술 관련 내용은 아래의 cc를 따름.
 ![](https://i.imgur.com/M1TGa1g.png)
-https://ccl.cckorea.org/about/
+https://ccl.cckorea.org/about/ BY-NC-ND
 
 ---
 #### 최근일지
