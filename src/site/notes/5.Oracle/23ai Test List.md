@@ -7,8 +7,10 @@
 - compress for oltp 동작 (in same tablespace) [[9.일지/2024/2024-01-08\|2024-01-08]] -> [[9.일지/2024/2024-01-11\|2024-01-11]]
 - virtual box on RAC using freenas [[9.일지/2024/2024-01-01\|2024-01-01]]
 - sharding 23c configure Env [[가.오라클/ETC/sharding configuration\|sharding configuration]] [[9.일지/2024/2024-01-16\|2024-01-16]] [[9.일지/2024/2024-01-17\|2024-01-17]] [[9.일지/2024/2024-01-19\|2024-01-19]] [[9.일지/2024/2024-01-20\|2024-01-20]] [[9.일지/2024/2024-01-22\|2024-01-22]]
+- multitenant 
+	- listener / timezone [[9.일지/2025/2025-07-31\|2025-07-31]]
 
-- 23ai dbca
+- 23ai dbca / help contents [[9.일지/2025/2025-07-30\|2025-07-30]]
 ```
 dbca -silent -createDatabase -templateName seed_db.dbc -gdbname PRICDB -sid PRICDB -responseFile NO_VALUE -characterSet AL32UTF8 -sysPassword manager -systemPassword manager -createAsContainerDatabase true -numberOfPDBs 0 -pdbName ORCL -pdbAdminPassword manager -databaseType MULTIPURPOSE -memoryMgmtType auto_sga -totalMemory 20240 -storageType ASM -datafileDestination "+DATA" -redoLogFileSize 200 -emConfiguration NONE -initParams _exadata_feature_on=true,db_create_file_dest=+DATA,db_create_online_log_dest_1=+DATA -nodelist oranode1,oranode2 -ignorePreReqs 
 
