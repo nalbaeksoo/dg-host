@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/다.proxmox/labSVR/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-
+```
 		 .://:`              `://:.            root@oralab 
        `hMMMMMMd/          /dMMMMMMh`          ----------- 
         `sMMMMMMMd:      :mMMMMMMMs`           OS: Proxmox VE 8.3.5 x86_64 
@@ -23,5 +23,7 @@
         `sMMMMMMMm:      :dMMMMMMMs`
        `hMMMMMMd/          /dMMMMMMh`
          `://:`              `://:`
+
+```
 
 #proxmox
