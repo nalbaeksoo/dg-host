@@ -30,6 +30,5 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 | [[9.일지/2025/2025-08-21\|2025-08-21]] | 10:21 AM - August 21, 2025 |
 | [[9.일지/2025/2025-08-20\|2025-08-20]] | 10:18 AM - August 20, 2025 |
 | [[9.일지/2025/2025-08-18\|2025-08-18]] | 10:26 AM - August 18, 2025 |
-| [[9.일지/2025/2025-08-14\|2025-08-14]] | 11:12 AM - August 14, 2025 |
 
 { .block-language-dataview}
