@@ -12,6 +12,7 @@
 - 23ai 
 	- dbca / help contents [[9.일지/2025/2025-07-30\|2025-07-30]]
 	- sga test / [[가.오라클/Memory/CDB sga test 23ai\|CDB sga test 23ai]]
+	- patch / [[가.오라클/patch/Two-Stage Rolling Updates\|Two-Stage Rolling Updates]]
 
 ```
 dbca -silent -createDatabase -templateName seed_db.dbc -gdbname PRICDB -sid PRICDB -responseFile NO_VALUE -characterSet AL32UTF8 -sysPassword manager -systemPassword manager -createAsContainerDatabase true -numberOfPDBs 0 -pdbName ORCL -pdbAdminPassword manager -databaseType MULTIPURPOSE -memoryMgmtType auto_sga -totalMemory 20240 -storageType ASM -datafileDestination "+DATA" -redoLogFileSize 200 -emConfiguration NONE -initParams _exadata_feature_on=true,db_create_file_dest=+DATA,db_create_online_log_dest_1=+DATA -nodelist oranode1,oranode2 -ignorePreReqs 
