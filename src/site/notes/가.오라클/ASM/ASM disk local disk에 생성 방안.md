@@ -64,8 +64,32 @@ brw-rw---- 1 grid dba 7, 0 Apr 28 14:56 /dev/loop0
 
 나중에 GRID 설치가 끝난 후 필요없어지면 "losetup -d /dev/loop0" 명령어로 위의 디바이스를 제거한다.
 ~~~
+
+- loopback device 구성 예제
+~~~
+mkdir -p /oralabnfs/asmdisks
+for i in 1 2 3 4 5; do
+  dd if=/dev/zero of=/oralabnfs/asmdisks/asm_disk${i}.file bs=1M count=20480 status=progress conv=fsync
+done
+
+modprobe loop
+losetup -D   # 모든 기존 루프 해제
+for i in 1 2 3 4 5; do
+  losetup /dev/loop${i} /oralabnfs/asmdisks/asm_disk${i}.file
+done
+losetup -a
+blockdev --getsize64 /dev/loop1
+blockdev --getsize64 /dev/loop2
+blockdev --getsize64 /dev/loop3
+blockdev --getsize64 /dev/loop4
+blockdev --getsize64 /dev/loop5
+
+chown grid:oinstall /dev/loop[1-5]
+chmod 660 /dev/loop[1-5]
+~~~
+
 ### REFERENCES
-- 인터넷 어딘가..
+- Creating File Devices On NAS/NFS FileSystems For ASM Diskgroups. (Doc ID 1620238.1)	
 
 
 #loopback #asm #loopback 
