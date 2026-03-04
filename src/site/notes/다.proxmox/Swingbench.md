@@ -3,7 +3,7 @@
 ---
 
 
-### download media
+### ==download== media
 ```
 curl -L -o swingbench25052023.zip https://github.com/domgiles/swingbench-public/releases/download/production/swingbench25092024.zip
 curl -L -o jdk-23_linux-x64_bin.rpm https://download.oracle.com/java/23/latest/jdk-23_linux-x64_bin.rpm

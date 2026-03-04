@@ -18,6 +18,7 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 
 ### Oracle tech 
 	본 블로그에 게시된 기술적인 내용은 개인의 의견이며, 오라클사의 공식 입장을 대변하지 않습니다.
+	NOTE: In the images, examples and document that follow, user details, cluster names, hostnames, directory paths, filenames, etc. represent a fictitious sample (and are used to provide an illustrative example only). Any similarity to actual persons, or entities, living or dead, is purely coincidental and not intended in any manner.
 
 ### 이외 기술 관련 내용은 아래의 cc를 따름.
 	https://ccl.cckorea.org

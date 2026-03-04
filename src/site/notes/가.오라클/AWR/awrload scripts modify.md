@@ -5,7 +5,7 @@
 #### CreateDate : 2025-11-05
 
 ### GOAL
-awrload 진행시 기존 수행된 database 에서 flashback 이 된경우 dbid 와 snap id가 awr repository에서 겹치는 현상을 회피하기 위함 
+awrload 진행시 기존 수행된 database 에서 flashback 이 수행된 경우 dbid 와 snap id가 awr repository에서 겹치는 현상을 회피하기 위함 
 ### Tested Env, APPLIES TO:
 Oracle Enterprise Linux 8.10
 Oracle Database - Enterprise Edition - Version 19.24
