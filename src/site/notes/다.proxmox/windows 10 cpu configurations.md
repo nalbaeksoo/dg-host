@@ -148,8 +148,3 @@ This result is from one hardware and guest configuration and includes a cold res
 5. Output of `pveversion -v`, `uname -a`, `/usr/bin/kvm --version`, and `lscpu`.
 
 Please redact IP addresses, MAC addresses, storage names, guest names, and other site-specific identifiers before attaching the command output.
-
-
-
-### REFERENCES
-codex 5.6 sol
