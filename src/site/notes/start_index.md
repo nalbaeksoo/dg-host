@@ -26,7 +26,8 @@ The [Obsidian Digital Garden Plugin](https://github.com/oleeskild/obsidian-digi
 
 ---
 #### 최근일지
-| File | file.ctime |
-| ---- | ---------- |
+| File                                    | file.ctime                    |
+| --------------------------------------- | ----------------------------- |
+| [[9.일지/2026/2026-09-05\|2026-09-05]] | 10:15 PM - September 05, 2026 |
 
 { .block-language-dataview}

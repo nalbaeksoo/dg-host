@@ -4,11 +4,6 @@
 
 #### CreateDate : 2026-07-13
 
-### GOAL
-Optimized Proxmox on windows 10 guest OS 
-
-### SOLUTION
-
 # Proxmox VE enhancement report draft
 
 ## Suggested Bugzilla fields
